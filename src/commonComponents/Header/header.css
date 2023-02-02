@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: bisque;
+}
+
+.headerButton {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
