@@ -1,10 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
 *{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Caveat', cursive;
+  font-size: large;
 }
+
 .header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: black;
+  align-items: center;
+  height: 60px;
+}
+
+.logoName {
+ display: flex;
+ margin-left: 30px;
+ color: rgb(190, 120, 159);
+}
+
+.color {
+  color: rgb(190, 120, 159)
+}
+
+.headerOptions {
+  margin-right: 30px;
+}
+
+.activeButton {
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  background-color: rgb(190, 120, 159);
+  padding: 5px;
+  margin: 5px;
+  margin-right: 25px;
 }
 
 .headerButton {
@@ -17,5 +47,5 @@
 }
 
 .headerButton:hover {
-  color: red;
+  color: rgb(190, 120, 159);
 }
