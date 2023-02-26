@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div>
       <Header isActive={"Home"}/>
-      <h1>This is home</h1>
+      <h1>This is homePage</h1>
     </div>
   );
 };
