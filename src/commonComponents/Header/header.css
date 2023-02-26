@@ -1,11 +1,21 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .header {
   display: flex;
   justify-content: flex-end;
-  background-color: bisque;
+  background-color: black;
 }
 
 .headerButton {
-  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  /* border: 1px solid black; */
   padding: 5px;
   margin: 5px;
+  margin-right: 25px;
+}
+
+.headerButton:hover {
+  color: red;
 }
