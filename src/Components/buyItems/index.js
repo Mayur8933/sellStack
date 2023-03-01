@@ -1,7 +1,13 @@
 import React from "react";
+import Header from "../../commonComponents/Header";
 
 const Buy = () => {
-  return <div>Buy</div>;
+  return (
+    <>
+      <Header/>
+      <h1>This is Buying page</h1>
+    </>
+  );
 };
 
 export default Buy;
