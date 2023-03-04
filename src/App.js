@@ -4,6 +4,7 @@ import ContactPage from "./Components/contactPage";
 import AboutPage from "./Components/aboutPage";
 import Buy from "./Components/buyItems";
 import Sell from "./Components/sellItem";
+import Cart from "./Components/cartPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/contact" element={<ContactPage />}></Route>
       <Route path="/buyItems" element={<Buy />}></Route>
       <Route path="/sellItems" element={<Sell />}></Route>
+      <Route path="/cart" element={<Cart />}></Route>
     </Routes>
   );
 }

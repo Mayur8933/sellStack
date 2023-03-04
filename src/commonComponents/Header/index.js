@@ -1,5 +1,6 @@
 import "./header.css";
 import { Link } from "react-router-dom";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import React from "react";
 
 const Header = ({ isActive }) => {
@@ -28,6 +29,12 @@ const Header = ({ isActive }) => {
           className={isActive === "Contact" ? "activeButton" : "headerButton"}
         >
           Contact
+        </Link>
+        <Link
+          to="/cart"
+          className={isActive === "Cart" ? "activeButton" : "headerButton"}
+        >
+          <AiOutlineShoppingCart />
         </Link>
       </div>
     </div>
